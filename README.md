@@ -57,3 +57,23 @@ Then, your code will ask you to surround it with `try-catch` statement, so your 
 And now, your title bar and other components is customized by ***FlatLaf*** theme.
 
 ![image](images\frame.png)
+
+***
+If you're using java ***Ant*** you need to download the `JAR` file
+
+![image](images\downloadJar.png)
+
+after creating a java ***Ant*** file, there should be a library folder in the project, you right-click that library folder and choose the ***Add JAR/Folder*** menu.
+
+![image](images\addJar.png)
+
+after that, find the `JAR` file that you download and choose it.
+
+then, call again the ***FLatLaf***  declaration:
+```java
+    UIManager.setLookAndFeel(new FlatDarkLaf());
+```
+
+and this should run:
+
+![image](images\javaAnt.png)
